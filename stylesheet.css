@@ -1,0 +1,36 @@
+html {
+    height: 100%
+}
+body {
+    height: 100%;
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+divColumn {
+    display: flex;
+    aspect-ratio: 1/1;
+    flex: 1 1 10px;
+}
+
+divRow {
+    aspect-ratio: 1/1;
+    flex: 1 1 10px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+}
